@@ -1,4 +1,4 @@
-## Project Brief
+# Project Brief
 
 You are tasked with creating a multiple-choice quiz program for a GCSE computer science class. The program should allow students to test their knowledge in a fun and interactive way. The quiz will consist of a series of questions with multiple-choice options. The program should keep track of the user's score and display it at the end. Additionally, a timer should be implemented to track the time taken to complete the quiz.
 
