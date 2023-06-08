@@ -2,7 +2,7 @@
 
 learn about:
 * user-defined data types
-* the definition and use of non-composite and composite data types
+* the definition and use of [non-composite](#non-composite-data-types) and composite data types
 * the choice and design of an appropriate user-defined data type for a given problem
 * methods of file organisation, such as serial, sequential and random
 * methods of file access, such as sequential and direct access
@@ -18,7 +18,7 @@ learn about:
 
 ## User Defined Data Types
 
-### You should already know...
+### You should already know:
 
 1. Different data types
 2. How to select appropriate data types

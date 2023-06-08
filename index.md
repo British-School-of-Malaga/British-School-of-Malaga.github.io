@@ -22,6 +22,7 @@
 
 13. Data Representation
     1. [User Defined Data Types](pages/9618/13DataRepresentation.md)
-
+        * Non-composite Data Types (Enums, Pointers)
+        * Composite Data Types (Classes, objects, record etc)
 
 ## A Level IT
