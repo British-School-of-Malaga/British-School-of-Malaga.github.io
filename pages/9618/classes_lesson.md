@@ -1,4 +1,4 @@
-Certainly! Here's a step-by-step guide to help your students create the initial class for a person in a school, and then extend it to create classes for students, teaching staff, and non-teaching staff:
+# Steps:
 
 Step 1: Create the Person Class:
 Start by creating a class called `Person` as the base class for all individuals in the school. Discuss with the students the common properties that every person in the school would have, such as `name`, `date_of_birth`, and `ID`. Here's an example code snippet to create the `Person` class:
