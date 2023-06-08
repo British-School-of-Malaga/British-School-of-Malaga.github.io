@@ -39,44 +39,8 @@ Non-composite data types are useful because they allow programmers to work with 
 
 A non-composite data type doesn't need to rely on another data type for its definition. It can be either a basic type provided by a programming language or a custom type created by the user. Non-composite user-defined data types are typically designed for specific purposes.
 
-#### Enumerated Data Type
+Two [Non-composite](/pages/9618/13.1-NonCompTypes.md) types we will look at are:
 
-An enumerated data type contains no references to other data types when it is defined.
-
-Enumerated data types, also known as enums, are a way to define a specific set of values that a variable can hold. It's like having a predefined list of options to choose from. Think of it as a menu in a restaurant. The menu lists different dishes you can order. Each dish has a unique name and description. In programming, an enumerated data type works similarly. It defines a list of named values, and a variable of that type can only be assigned one of those specific values.
-
-In pseudocode the type definition would look like this:
-
-`TYPE <IDENTIFIER> = (val1, val2, val3, ... )`
-
-For example, let's say we want to represent the days of the week in a program. We can define an enumerated data type called "DaysOfWeek" with the following options: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, and Sunday. 
-
-```pseudocode
-TYPE DaysOfWeek = (Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday)
-```
-
-Now, if we declare a variable of type "DaysOfWeek", we can only assign it one of those specific values.
-
-```pseudocode
-DECLARE today : DaysOfWeek
-today <- Monday
-```
-
-Here is the python:
-
-```python
-import enum
-class DaysOfWeek(enum.Enum):
-    MONDAY = 1
-    TUESDAY = 2
-    WEDNESDAY = 3
-    THURSDAY = 4
-    FRIDAY = 5
-    SATURDAY = 6
-    SUNDAY = 7
-
-day = DaysOfWeek.MONDAY
-```
-
-Enums are useful because they provide clarity and restrict the range of possible values a variable can have. They make code more readable and help avoid errors by ensuring that variables are assigned valid values from a predefined set.
+1. [Enumerated data types](/pages/9618/13.1-NonCompTypes.md)
+2. [Pointers](/pages/9618/13.1-NonCompTypes.md)
 
